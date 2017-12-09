@@ -1,0 +1,99 @@
+@font-face {
+font-family: 'OldSansBlack';
+font-style: normal;
+font-weight: normal;
+src: local('OldSansBlack'), url('OldSansBlack.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'OldSansBlackUnderline';
+font-style: normal;
+font-weight: normal;
+src: local('OldSansBlackUnderline'), url('OldSansBlackUnderline.woff') format('woff');
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+
+.nav-pills > li > a.active, .nav-pills > a.active {
+    background-color: #c80150!important;
+}
+
+.nav > li > a:hover, .nav > a:hover{
+    background-color:#c80150;
+    color: white;
+}
+
+.nav-item{
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.navbar-custom{
+	border-top: 10px solid #c80150;
+}
+
+.logo{
+	height: 100px;
+	width: auto;
+}
+
+.nav-link{
+	font-family: OldSansBlack;
+	color: white;
+}
+
+footer {
+	background-color:#c80150;
+	position:absolute;
+	width:100%;
+	bottom:0px;
+	height:15px;
+}
+
+.col-3{
+	background-color: #7f7f7f;
+}
+
+#nav-ctcamp{
+	margin-bottom:  5%;
+}
+#tabcontent{
+	padding:1.5rem;
+	border: 0.2rem;
+	border-width: 0.2rem;
+	border-color: #999999;
+}
+
+.row {
+    min-height:500px;
+}
+
+#v-pills-tab,
+#introduction-tab,
+#history-tab,
+#photo-tab {
+	text-align: center;
+}
+
+#v-pills-tab > a,
+#introduction-tab > a,
+#history-tab > a,
+#photo-tab > a{
+	
+	height: 70px;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+

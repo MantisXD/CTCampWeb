@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html lang = "en">
+<!DOCTYPE html>
+<html lang = "en">
 <head>
 	<meta charset="UTF-8">
 	<title>C.T. Camp</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+	
+	<link rel="stylesheet" href="/css/ctcamp.css">
+
 </head>
 
 
 <body>
+
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom" id="nav-ctcamp">
+	<a href="/main.html" class="navbar-brand"><IMG class="logo" SRC="/static/ctcamp_logo.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ctcampMenu" aria-controls="ctcampMenu" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="ctcampMenu">
+		<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+			<li class="nav-item">
+				<a class="nav-link active" id="introduction-tab" data-toggle="pill" href="#introduction" role="tab" aria-controls="introduction" aria-selected="true">INTRODUCTION</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="history-tab" data-toggle="pill" href="#history" role="tab" aria-controls="history" aria-selected="false">HISTORY</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="photo-tab" data-toggle="pill" href="#photo" role="tab" aria-controls="photo" aria-selected="false">PHOTO</a>
+			</li>
+		</ul>
+
+	</div>
+</nav>
+</header> 
+
+<body>
 <div class = "container">
-	<nav class="navbar navbar-inverse">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
 		<div class="container-fluid">
 				<div class="navbar-header">
 				<a class="navbar-brand" href="#">CT Camp</a>
@@ -20,7 +52,7 @@
 					<li class="active"><a href="#">전체 보기</a></li>
 					<li><a href="#">CT Camp 1기</a></li>
 					<li><a href="#">CT Camp 2기</a></li> 
-					<li><a href="#">CT Camp 3기r</a></li> 
+					<li><a href="#">CT Camp 3기</a></li> 
 				</ul>
 			</div>
 		</div>
@@ -29,53 +61,21 @@
 <div class = "container">
 	<div id = "confname">전체 보기</div>
 </div>	
+
+
 <div class = "container">
-	<table class = "table table-hover table-striped">
-	<thead>
-		<tr>
-			<th>TITLE</th>
-			<th>PRESENTER</th>
-			<th>CONFERENCE</th>
-		</tr>	
-	</thead>
-	<tbody>
-	<tr>
-		<td>title1</td>
-		<td>mantis</td>
-		<td>ctcamp 0</td>
-	</tr>
-	<tr>
-		<td>title2</td>
-		<td>mantis2</td>
-		<td>ctcamp 1</td>
-	</tr>
-	<tr>
-		<td>title1</td>
-		<td>mantis</td>
-		<td>ctcamp 2</td>
-	</tr>
-	<tr>
-		<td>title1</td>
-		<td>mantis3</td>
-		<td>ctcamp 3</td>
-	</tr>
-	<tr>
-		<td>title1</td>
-		<td>mantis4</td>
-		<td>ctcamp 0</td>
-	</tr>
-	</tbody>
-	</table>
-	<hr/>
-	<div class = "text-center">
-		<ul class = "pagination">
-			<li><a href="#">1</a></li>
-			<li><a href="#">2</a></li>
-			<li><a href="#">3</a></li>
-			<li><a href="#">4</a></li>
-			<li><a href="#">5</a></li>
-		</ul>
-	</div>
+	<div id="data-container"></div>
+	<div class ="text-center"id="pagination-container"></div>
 </div>
+
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+
+<script src="/scripts/contentslist.js"></script>
+<script src="/scripts/ctcamp.js"></script>
+<script src ="http://pagination.js.org/dist/2.1.0/pagination.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
 </body>
 
