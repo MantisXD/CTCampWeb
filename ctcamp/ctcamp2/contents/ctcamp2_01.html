@@ -3,53 +3,79 @@
 <head>
 	<meta charset="UTF-8">
 	<title>C.T. Camp</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+	
+	<link rel="stylesheet" href="/css/ctcamp.css">
+
 </head>
 
 
 <body>
-<div class = "container">
-	<nav class="navbar navbar-inverse">
-		<div class="container-fluid">
-				<div class="navbar-header" >
-					<a class="navbar-brand" href="/index.html" style="position:relative;">CT CAMP</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom" id="nav-ctcamp">
+	<a href="/index.html" class="navbar-brand" id="content-img"><IMG class="logo" SRC="/static/ctcamp_logo.png"></a>
+	<div class="container" id="title">CONTENT HISTORY</div>
+</nav>
+<div class = "subbar">
+	<div class="container">
+		<div id = "confname">/CTCAMP2</div>
+	</div>
+</div>	
+<div class = "container mobilemax rounded" id="content">
+	<div class="row mobilemax">
+		<div class="col-10">
+			<div class="row">
+				<div class="container" id="content-title">
+					ct camp algorithm
 				</div>
-			<div>
-				<ul class="nav navbar-nav">
-					<li><a href="#">전체 보기</a></li>
-					<li><a href="#">CT Camp 1기</a></li>
-					<li><a href="#">CT Camp 2기</a></li> 
-					<li><a href="#">CT Camp 3기</a></li> 
-					<li><a href="#">ETC</a></li> 
-				</ul>
+				<div class="container" id="content-subtitle">
+					
+				</div>
+			</div>
+			<div class="row" id="content-head-description">
+				<div class="col-2">
+					<div class="container" id="content-info-head">
+						컨텐츠<br>설명
+					</div>
+				</div>
+				<div class="col-10">
+					<div class="container" id="content-description">
+						BBBBBBBBBBBBBBBB
+					</div>
+				</div>
 			</div>
 		</div>
-	</nav>
+		<div class="col-2">
+			<div class="container" id="content-manager">
+				mantis1
+			</div>
+		</div>
+	</div>
+</div>	
 </div>
-<div class = "container">
-	<div id = "confname">CT CAMP 2</div>
-</div>	
-<div class = "container">
-	<table class="table" style="padding:20px">
-		<tbody>
-			<tr>
-				<td>ct camp algorithm</td>
-			</tr>
-			<tr>
-				<td>mantis1</td>
-			</tr>	
-			<tr>
-				<td>ㄴㅇㄹㅁㅇㄴㄹㄴㅇㄹㅁㅇㄴㄹ
- ㅁㄴㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹ 
- ㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇ 
- ㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹ 
- ㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄹ</td>
-			</tr>
-		<tbody>
-	</table>
-	
-</div>	
+<div class="container mobilemax" id="ppt">
+	<div class="container">
+		발표자료
+	</div>
+	<object data="/static/slides/.swf" width="100%" height="600px"><div align="center"> PPT DATA </div></object>
+</div>
 
 </body>
+<footer>
 
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+<script src="/scripts/contentslist.js"></script>
+<script src="/scripts/ctcamp.js"></script>
+<script src ="http://pagination.js.org/dist/2.1.0/pagination.min.js"></script>
+
+
+</body>
+</html>

@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang = "en">
-<!DOCTYPE html>
-<html lang = "en">
 <head>
 	<meta charset="UTF-8">
 	<title>C.T. Camp</title>
@@ -18,7 +16,7 @@
 
 <header>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom" id="nav-ctcamp">
-	<a href="/main.html" class="navbar-brand"><IMG class="logo" SRC="/static/ctcamp_logo.png"></a>
+	<a href="/index.html" class="navbar-brand" id="content-img"><IMG class="logo" SRC="/static/ctcamp_logo.png"></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ctcampMenu" aria-controls="ctcampMenu" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
@@ -29,10 +27,10 @@
 				<a class="nav-link active" id="introduction-tab" data-toggle="pill" href="#introduction" role="tab" aria-controls="introduction" aria-selected="true">INTRODUCTION</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" id="history-tab" data-toggle="pill" href="#history" role="tab" aria-controls="history" aria-selected="false">HISTORY</a>
-			</li>
-			<li class="nav-item">
 				<a class="nav-link" id="photo-tab" data-toggle="pill" href="#photo" role="tab" aria-controls="photo" aria-selected="false">PHOTO</a>
+			</li>
+			<li class="nav-item" onclick="location.href='/contentlist.html'">
+				<a class="nav-link" id="history-tab" data-toggle="pill" href="#history" role="tab" aria-controls="history" aria-selected="false" >HISTORY</a>
 			</li>
 		</ul>
 
@@ -40,42 +38,83 @@
 </nav>
 </header> 
 
-<body>
-<div class = "container">
-	<nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-		<div class="container-fluid">
-				<div class="navbar-header">
-				<a class="navbar-brand" href="#">CT Camp</a>
+<div class="container mobilemax">
+	<div class="tab-content" id="pills-tabContent">
+		<div class="tab-pane fade show active" id="introduction" role="tabpanel" aria-labelledby="introduction-tab">
+			<div class="row bg-seocndary" id="row">
+				<div class="col-3 rounded">
+					<div class="nav flex-column nav-pills nav-fill" id="introduction-tab" role="tablist" aria-orientation="vertical">
+						<a class="nav-link active" id="introduction-home-tab" data-toggle="pill" href="#introduction-home" role="tab" aria-controls="introduction-home" aria-selected="true">ABOUT CTCamp</a>
+					</div>
 				</div>
-			<div>
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">전체 보기</a></li>
-					<li><a href="#">CT Camp 1기</a></li>
-					<li><a href="#">CT Camp 2기</a></li> 
-					<li><a href="#">CT Camp 3기</a></li> 
-				</ul>
+				<div class="col-9 border" id="tabcontent">	
+					<div class="tab-content" id="introduction-tabContent">
+						<div class="tab-pane fade show active" id="introduction-home" role="tabpanel" aria-labelledby="introduction-home-tab">
+							<div class="container" id="content">
+								<div class="container" id="content-img"><img src="/static/ctcamp_logo.png"></div>
+								<div class="container">
+									2015년 8월 제 1회 POSTECH Computational Thinking Camp (CTcamp) 가 컴퓨터공학과 학생들과 교수님들의 참여로 기획되고 진행되었다. CTcamp 는 고등학생을 대상으로 Computional Thinking ability 를 증진시키는 것을 목적으로 기획되었으며, 학생들은 CTcamp 기간동안 Computational Problem Solving 을 체험 할 수 있다.
+								</div>	
+								<div class="container" id="content-img">
+									<img src="/static/ctcamp.jpeg">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-	</nav>
+		<div class="tab-pane fade" id="photo" role="tabpanel" aria-labelledby="photo-tab">
+			<div class="row bg-seocndary" id="row">
+				<div class="col-3 rounded">
+					<div class="nav flex-column nav-pills nav-fill" id="photo-tab" role="tablist" aria-orientation="vertical">
+						<a class="nav-link active" id="photo-2015-tab" data-toggle="pill" href="#photo-2015" role="tab" aria-controls="photo-2015" aria-selected="true">2015</a>
+						<a class="nav-link" id="photo-2016-tab" data-toggle="pill" href="#photo-2016" role="tab" aria-controls="photo-2016" aria-selected="false">2016</a>
+						<a class="nav-link" id="photo-2017-tab" data-toggle="pill" href="#photo-2017" role="tab" aria-controls="photo-2017" aria-selected="false">2017</a>
+						<a class="nav-link" id="photo-2018-tab" data-toggle="pill" href="#photo-2018" role="tab" aria-controls="photo-2018" aria-selected="false">2018</a>
+					</div>
+				</div>
+				<div class="col-9 border" id="tabcontent">	
+					<div class="tab-content" id="photo-tabContent">
+						<div class="tab-pane fade show active" id="photo-2015" role="tabpanel" aria-labelledby="photo-2015-tab">
+							<div class="container" id="content">
+								<p>asdfasdfasfasdf</p>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="photo-2016" role="tabpanel" aria-labelledby="photo-2016-tab">
+							2
+						</div>
+						<div class="tab-pane fade" id="photo-2017" role="tabpanel" aria-labelledby="photo-2017-tab">
+							3
+						</div>
+						<div class="tab-pane fade" id="photo-2018" role="tabpanel" aria-labelledby="photo-2018-tab">
+							4
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>		
 </div>
-<div class = "container">
-	<div id = "confname">전체 보기</div>
-</div>	
 
 
-<div class = "container">
-	<div id="data-container"></div>
-	<div class ="text-center"id="pagination-container"></div>
-</div>
-
-<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 
+<footer>
+
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+<script src ="http://pagination.js.org/dist/2.1.0/pagination.min.js"></script>
 <script src="/scripts/contentslist.js"></script>
 <script src="/scripts/ctcamp.js"></script>
-<script src ="http://pagination.js.org/dist/2.1.0/pagination.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+
 
 </body>
-
+</html>

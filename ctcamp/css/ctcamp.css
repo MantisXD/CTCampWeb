@@ -29,6 +29,11 @@ html {
     color: white;
 }
 
+.nav > li > a, .nav > a {
+	background-color:#7f7f7f;
+	color: white;
+}
+
 .nav-item{
 	margin-right: 20px;
 	margin-left: 20px;
@@ -49,6 +54,12 @@ html {
 	color: white;
 }
 
+#title{
+	font-family: OldSansBlack;
+	color: white;
+	font-size: 40px;
+}
+
 footer {
 	background-color:#c80150;
 	position:absolute;
@@ -57,13 +68,7 @@ footer {
 	height:15px;
 }
 
-.col-3{
-	background-color: #7f7f7f;
-}
 
-#nav-ctcamp{
-	margin-bottom:  5%;
-}
 #tabcontent{
 	padding:1.5rem;
 	border: 0.2rem;
@@ -71,7 +76,7 @@ footer {
 	border-color: #999999;
 }
 
-.row {
+.tabrow {
     min-height:500px;
 }
 
@@ -97,3 +102,70 @@ footer {
 	
 }
 
+.container {
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+
+.subbar {
+	width: 100%;
+	height: 80px;
+	background-color: #343a40;
+	border-top: .5rem solid #c80150;
+	border-bottom: .5rem solid #c80150;
+	color: white; 
+	display: flex;
+	align-items: center;
+}
+
+#content {
+	margin-top:10px;
+	border-bottom: 30px;
+	padding-bottom: 30px;
+	background-color: #343a40;
+	color: white;
+}
+
+#confname{
+	font-size: 25px;
+}
+
+#content-title{
+	font-size: 30px;
+	
+}
+
+#content-subtitle{
+	font-size : 20px;
+	margin-left: 15px;
+}
+
+#content-info-head{
+	text-align: center;
+}
+
+#content-head-description{
+}
+
+#content-manager{
+	margin-top: 30px;
+}
+
+#ppt{
+	width:100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#content-img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+
+}
+
+img {
+	padding: 0px;
+	max-width: 100%;
+	height: auto;
+}

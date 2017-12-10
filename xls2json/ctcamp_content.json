@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ctcamp-185205",
+  "private_key_id": "5d6b3cf142350541ebc417835e751ee019582e89",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC7ttx+7ncq+YV7\nUunaHNKKuO686w3DldMeszgjEHCtNxxK+OH/c+qNme7C3R+yrhCxrqihlQ1qtmM6\nWDEfR9TttHN7x2lw734RnvsIryHkYlr47BW7z6YhsolMohomLu2etMx/TJQNtHrM\n6vt+s1/h4ewHv8bxpR1uw6Hgpyy66zDZ1RaBDDfMKpQyNDsNIYw8H2iyiZAxY9vx\nG+h2YlrjK/mQ9ZBbzW3zosoxgn7xB9CyMB962jA262SvBw0e9yU+ZABWibcsNbuR\nxhG/HH2ORjKHRm5XQxjsUooCtFGyZA0aFyPsXQ+FAis/7kG7hKKY7aU4ZZ1YsYPq\nK2rzsYs9AgMBAAECggEAKlUJMbjed/sQfqjKow0H8A/XixQpJPf3Rf+dw86T0oRQ\npZmuAblm5msV/Kz4VofJrQBZ+CKQhYW/J+u2nDrLSpX8yyfD4BuqXxfuvd0c9A+4\nO1WmaxXffc7xBq6x3fWMUdOtIHIpG1Qds3O0prSWBW85FuBJYbpeQlns+ihJPpei\n89qdmkkGi2yDHN+8XJVE6oXzU5HX82fxW3CvkGsByHGMXnC1CSLumFoJdgYiBbbh\n215a2YWU+ti9BgaEw9AeYL5sJqh1zbARXTtzDmsmzWTLVXNJHygI6u329RvWsNX/\nhT+rmSldNMOcisngN2+W5DqJGr6CWOnRGnRukA2NswKBgQD3RLYdIzqUR5jN1t+S\nQ8CXUyJgMm1bFL8rVA9d9grbgmx1Eis/Kalbvv7TJxjpUlvmnUsVmka/GRb/qLHK\nihKA8ATW0MqjSe4uLMkDxOv0zlrjLJhy9w39wo3RVq5xqVmL+YepaDu513M4EVKa\n3AKTWCwAHV3F7tZvK0rM0W7BrwKBgQDCV8j98OaBU5V2sICJ6iGLH7na7YItc5kY\n7tbhLN6H5p5eLBAASnOvNaSQ2kiamjIVd5Q9WX8+xf+PwHVO372Nkwcypj086lyz\nYi+IUeI4hn0gFIa9Qz5YgdLA6maDmxuywc9IwUZnj1ptLXmSdpQ7i/DUvjH5Uj54\nZiGUthiY0wKBgQDnmmNdzWaMBrfYbWABtxZIZyT2p6UIP9mDsvulzdSDoJkH2tnJ\nErO/7JjwnFlYCb1st33hoRyM1+pT0uWcyVDllmth7jUvVwsSEv7BWgyMw1AcIuQ0\nIrXnLvj40FEawz3Nvw7TnX775hLUvFz8EgETk+26ucbgo4IUpJ8uUyiDnwKBgCro\nwwH+nIZVdBy+n8LTpRBYsup5olJywYzVvy/8fi23Z6QXSnkl9yDqUSmCaKFqBkDj\nJCHfjs7HXMPalIwTroCBxAcU2VSH0mvw89m/aplcaGga4B0NqchU8bmSh4vrRVRU\nonXH5smaxzZv4fXKpLP5E/WFAPexhwWCV0vEYO3tAoGBAJd/iST9wMeLtruCKLL8\noKPdkWCz6eWt4yszHwOHmrFTa44GtX0alghqot89BXQyNr3JuMDTSFQ5VSwmGX51\n8eyf+2kIpv1Yudx3tb60uneTkvRiWh8YMFRCC/FiWFTVieAq7OFwVj/aQFanQxd8\nXPT7wb/E6dKkp5hadbKKUZvU\n-----END PRIVATE KEY-----\n",
+  "client_email": "ctcampweb@ctcamp-185205.iam.gserviceaccount.com",
+  "client_id": "102810875239712783651",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ctcampweb%40ctcamp-185205.iam.gserviceaccount.com"
+}

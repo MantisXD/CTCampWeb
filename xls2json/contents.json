@@ -1,7 +1,14 @@
-{"ctcampnum": "ctcampnum", "id": "id", "tilte": "title", "subtitle": "subtitle", "manager": "manager", "description": "description"}
-{"ctcampnum": "1", "id": "ctcamp1_01", "tilte": "ct camp web", "subtitle": "web good", "manager": "mantis1", "description": "ctcamp \uc6f9\uc744 \ub9cc\ub4e0 \ud504\ub85c\uc81d\ud2b8 \uc785\ub2c8\ub2e4.\n \uadf8\ub807\uc2b5\ub2c8\ub2e4 \uc774\ub294 \uc5ec\ub7ec \uc904\uc774 \uac00\ub2a5\ud55c\uc9c0 \uccb4\ud06c \ud558\uae30 \uc704\ud574 \uc791\uc131 \ub41c \uc904\uc785\ub2c8\ub2e4."}
-{"ctcampnum": "3", "id": "ctcamp3_01", "tilte": "ct camp ai", "subtitle": "", "manager": "mantis3", "description": "\u3141\u3134\u3147\u3139\u3134\u3147\u3139"}
-{"ctcampnum": "2", "id": "ctcamp2_01", "tilte": "ct camp algorithm", "subtitle": "", "manager": "mantis1", "description": "\u3134\u3147\u3139\u3141\u3147\u3134\u3139\u3134\u3147\u3139\u3141\u3147\u3134\u3139\n \u3141\u3134\u3139\u3141\u3134\u3147\u3139\u3141\u3134\u3147\u3139\u3141\u3134\u3147\u3139 \n \u3141\u3134\u3147\u3139\u3141\u3134\u3147\u3139\u3141\u3134\u3147 \n \u3141\u3134\u3147\u3139\u3141\u3134\u3147\u3139\u3141\u3134\u3147\u3139 \n \u3141\u3134\u3147\u3139\u3141\u3134\u3147\u3139\u3141\u3134\u3147\u3139\u3141\u3139"}
-{"ctcampnum": "1", "id": "ctcamp1_02", "tilte": "turing machine", "subtitle": "", "manager": "mantisxp", "description": "\u3141\u3134\u3147\u3139\u3141\u3134\u3147\u3139"}
-{"ctcampnum": "2", "id": "ctcamp2_02", "tilte": "postech mystery jerney", "subtitle": "", "manager": "mantisxd", "description": "\u3141\u3134\u3147\u3139\u3141\u3134\u3147\u3139\u3141\u3134\u3147\u3139"}
-{"ctcampnum": "1", "id": "ctcamp1_01", "tilte": "fun coding", "subtitle": "coding is fun", "manager": "mantis\u3141", "description": "\u3141\u3134\u3147\u3139\u3141\u3134\u3147 \n \u3141\u3134\u3147\u3139\u3141\u3134\u3147\u3139\u3141\u3134\u3147\u3139\u3141\u3134\u3147\u3139\u3141\u3134\u3147\u3139\u3141\u3134\u3147\u3139 \n \u3141\u3134\u3147\u3139\u3141\u3134\u3147\u3139"}
+{"conference": "ctcamp1", "id": "ctcamp1_01", "title": "CT Camp Web", "subtitle": "static web을 이용한 구현 ", "manager": "심문규", "description": "ctcamp 웹을 만든 프로젝트 입니다.\nstatic web 의 장점을 살려 database 없이, 유지보수가 적은 사이트를 개발했습니다.", "ppt": "ctcampweb"}
+{"conference": "ctcamp3", "id": "ctcamp3_01", "title": "ct camp ai", "subtitle": "", "manager": "mantis3", "description": "AAAAAAAAAAAAAAAAA", "ppt": ""}
+{"conference": "ctcamp2", "id": "ctcamp2_01", "title": "ct camp algorithm", "subtitle": "", "manager": "mantis1", "description": "BBBBBBBBBBBBBBBB", "ppt": ""}
+{"conference": "ctcamp1", "id": "ctcamp1_02", "title": "turing machine", "subtitle": "", "manager": "mantisxp", "description": "CCCCCCCCCCCCCCC", "ppt": ""}
+{"conference": "ctcamp1", "id": "ctcamp1_03", "title": "fun coding", "subtitle": "coding is fun", "manager": "mantisㅁ", "description": "DDDDDDDDDDDDDDD", "ppt": ""}
+{"conference": "oop2017", "id": "oop2017_01", "title": "postech mystery jerney", "subtitle": "포스텍 버전 레이튼 ", "manager": "성하경", "description": "OOP 2017 project\n레이튼 미스터리 저니를 포스텍에 맞게 바꿔봤습니다.\n수수께끼는 프로그래밍에 관한 문제들로 구성했습니다.", "ppt": "postechmystery"}
+{"conference": "ctcamp1", "id": "ctcamp1_04", "title": "AAAAAA", "subtitle": "AAAAAA", "manager": "AAAAAA", "description": "AAAAAA", "ppt": "AAAAAA"}
+{"conference": "ctcamp2", "id": "ctcamp2_02", "title": "AAAAAA", "subtitle": "AAAAAA", "manager": "AAAAAA", "description": "AAAAAA", "ppt": "AAAAAA"}
+{"conference": "ctcamp2", "id": "ctcamp2_03", "title": "AAAAAA", "subtitle": "AAAAAA", "manager": "AAAAAA", "description": "AAAAAA", "ppt": "AAAAAA"}
+{"conference": "ctcamp2", "id": "ctcamp2_04", "title": "AAAAAA", "subtitle": "AAAAAA", "manager": "AAAAAA", "description": "AAAAAA", "ppt": "AAAAAA"}
+{"conference": "ctcamp3", "id": "ctcamp3_02", "title": "AAAAAA", "subtitle": "AAAAAA", "manager": "AAAAAA", "description": "AAAAAA", "ppt": "AAAAAA"}
+{"conference": "ctcamp3", "id": "ctcamp3_03", "title": "AAAAAA", "subtitle": "AAAAAA", "manager": "AAAAAA", "description": "AAAAAA", "ppt": "AAAAAA"}
+{"conference": "ctcamp4", "id": "ctcamp4_01", "title": "AAAAAA", "subtitle": "AAAAAA", "manager": "AAAAAA", "description": "AAAAAA", "ppt": "AAAAAA"}
+{"conference": "ctcamp4", "id": "ctcamp4_02", "title": "AAAAAA", "subtitle": "AAAAAA", "manager": "AAAAAA", "description": "AAAAAA", "ppt": "AAAAAA"}

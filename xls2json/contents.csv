@@ -1,14 +1,18 @@
-ctcampnum,id,title,subtitle,manager,description
-1,ctcamp1_01,ct camp web,web good,mantis1,"ctcamp 웹을 만든 프로젝트 입니다.
- 그렇습니다 이는 여러 줄이 가능한지 체크 하기 위해 작성 된 줄입니다."
-3,ctcamp3_01,ct camp ai,,mantis3,ㅁㄴㅇㄹㄴㅇㄹ
-2,ctcamp2_01,ct camp algorithm,,mantis1,"ㄴㅇㄹㅁㅇㄴㄹㄴㅇㄹㅁㅇㄴㄹ
- ㅁㄴㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹ 
- ㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇ 
- ㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹ 
- ㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄹ"
-1,ctcamp1_02,turing machine,,mantisxp,ㅁㄴㅇㄹㅁㄴㅇㄹ
-2,ctcamp2_02,postech mystery jerney,,mantisxd,ㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹ
-1,ctcamp1_01,fun coding,coding is fun,mantisㅁ,"ㅁㄴㅇㄹㅁㄴㅇ 
- ㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹ 
- ㅁㄴㅇㄹㅁㄴㅇㄹ"
+conference,id,title,subtitle,manager,description,ppt
+ctcamp1,ctcamp1_01,CT Camp Web,static web을 이용한 구현 ,심문규,"ctcamp 웹을 만든 프로젝트 입니다.
+static web 의 장점을 살려 database 없이, 유지보수가 적은 사이트를 개발했습니다.",ctcampweb
+ctcamp3,ctcamp3_01,ct camp ai,,mantis3,AAAAAAAAAAAAAAAAA,
+ctcamp2,ctcamp2_01,ct camp algorithm,,mantis1,BBBBBBBBBBBBBBBB,
+ctcamp1,ctcamp1_02,turing machine,,mantisxp,CCCCCCCCCCCCCCC,
+ctcamp1,ctcamp1_03,fun coding,coding is fun,mantisㅁ,DDDDDDDDDDDDDDD,
+oop2017,oop2017_01,postech mystery jerney,포스텍 버전 레이튼 ,성하경,"OOP 2017 project
+레이튼 미스터리 저니를 포스텍에 맞게 바꿔봤습니다.
+수수께끼는 프로그래밍에 관한 문제들로 구성했습니다.",postechmystery
+ctcamp1,ctcamp1_04,AAAAAA,AAAAAA,AAAAAA,AAAAAA,AAAAAA
+ctcamp2,ctcamp2_02,AAAAAA,AAAAAA,AAAAAA,AAAAAA,AAAAAA
+ctcamp2,ctcamp2_03,AAAAAA,AAAAAA,AAAAAA,AAAAAA,AAAAAA
+ctcamp2,ctcamp2_04,AAAAAA,AAAAAA,AAAAAA,AAAAAA,AAAAAA
+ctcamp3,ctcamp3_02,AAAAAA,AAAAAA,AAAAAA,AAAAAA,AAAAAA
+ctcamp3,ctcamp3_03,AAAAAA,AAAAAA,AAAAAA,AAAAAA,AAAAAA
+ctcamp4,ctcamp4_01,AAAAAA,AAAAAA,AAAAAA,AAAAAA,AAAAAA
+ctcamp4,ctcamp4_02,AAAAAA,AAAAAA,AAAAAA,AAAAAA,AAAAAA
